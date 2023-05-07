@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+.rightbox{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: auto;
+  margin-top: 10px;
+  /* border: 1px solid black; */
+}
+.name {
+  width: auto;
+  margin-top: 55px;
+  /* border: 1px solid red; */
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  word-spacing: 20px;
+  
+}
+.small{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+#mail a:link{
+  margin-left: 5px;
+  text-decoration: none;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: auto;
+  height: 250px;
+  margin-top: 25px;
+  
+  /* border: 1px solid red; */
+}
+.containt{
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 20px;
+}
+.change{
+  margin-top: 40px;
+}
+.logo{
+  display: flex;
+  align-items:start;
+  width: auto;
+  height: 70px;
+  margin-top: auto;
+  /* border: 1px solid red; */
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  border-radius: 50% ;
+  background-color: #0a0f14;
+  /* border: 1px solid black; */
+}
+.size{
+  width: 100%;
+  height: 100%;
+  font-weight: 100%;
+
+}

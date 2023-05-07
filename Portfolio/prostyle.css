@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+  background-color: #eee;
+}
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  width: auto;
+  height: auto;
+  /* border: 1px solid black; */
+}
+.leftbox{
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: auto;
+  margin-top: 10px;
+  background-color: #0a0f14;
+  /* border: 1px solid black; */
+}
+.profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  /* border: 1px solid red; */
+}
+.photo-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+  /* border: 1px solid black; */
+}
+.photo{
+  width: 120px;
+  height: 120px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #656566;
+  /* border: 1px solid red; */
+}
+#propic{
+  width: 100%;
+  height: 100%;
+  
+  border-radius: 50%;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 150px;
+  height: 350px;
+  font-family: 'Roboto', sans-serif;
+  color: #505862;
+  
+  /* border: 1px solid red; */
+
+}
+.about p:hover{
+  color: white;
+  cursor: pointer;
+}

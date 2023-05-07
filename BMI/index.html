@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Body Mass Index</title>
+  <link rel="stylesheet" href="bmistyle.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <p class="top-text"><span id="cl-blue">B</span>ody <span id="cl-blue">M</span>ass <span id="cl-blue">I</span>ndex
+      <span id="cl-blue">C</span>alculator
+    </p>
+    <div class="main-box">
+      <div class="gender">
+        <div class="radioBOX">
+          <input type="radio" name="gender" class="mf" value="male" onclick="genderCheck()">Male
+          <input type="radio" name="gender" class="mf" value="female" onclick="genderCheck()">Female
+        </div>
+        <div class="textB">
+          <span id="nameId">Enter Your Name </span><input type="text" name="name" id="nameBox" class="nameB" placeholder="Enter your name here"> 
+        </div>
+
+      </div>
+      <div class="age">
+        <div class="box">
+          <input type="number" class="textBox" id="ageText">
+          <label for="ageText" class="age-type">Age</label>
+        </div>
+        <div class="box">
+          <input type="number" class="textBox" id="heightText" />
+          <label for="heightText" class="age-type">Height (cm)</label>
+        </div>
+        <div class="box">
+          <input type="number" class="textBox" id="weightText">
+          <label for="weightText" class="age-type">Weight (kg)</label>
+        </div>
+
+      </div>
+      <div class="btn">
+        <button id="submit" value="submit" onclick="submit()">Submit</button>
+      </div>
+
+    </div>
+    <br>
+    <div id="cBox">
+      <p class="bottom-text" id="resultBmi"></p>
+      <p class="text" id="commentBox"></p>
+      <p id="gender"></p>
+    </div>
+  </div>
+  <script src="bmiscript.js" defer></script>
+</body>
+
+</html>

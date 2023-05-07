@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border: 1px solid black;
+
+}
+.bt0{
+    border-top: 0;
+}
+.blr0{
+    border-left: 0;
+    border-right: 0;
+}
+.note{
+   font-size: large;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: large;
+    margin-top: 15px;
+}
+
+table,  td {
+  width: 50%;
+  height: 35px;
+  border-collapse: collapse;
+  /* border:1px solid black; */
+}
+.TEXT{
+    width: 70%;
+    height:30px;
+    outline: none;
+}
+.AGE{
+    width: 30%;
+    height: 20px;
+    outline: none;
+}
+#button{
+    width: 70px;
+    height: 30px;
+}
+#area{
+    outline: none;
+}

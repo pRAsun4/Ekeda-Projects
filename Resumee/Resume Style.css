@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.mainbox{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    width: 89%;
+    height: auto;
+    margin-top: 2%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+.bt0{
+    border-top: 0;
+}
+.blr0{
+    border-left: 0;
+    border-right: 0;
+}
+.bb0{
+    border-bottom: 0;
+}
+

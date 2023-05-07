@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
+.bt0{
+    border-top: 0;
+}
+.blr0{
+    border-left: 0;
+    border-right: 0;
+}
+.bb0{
+    border-bottom: 0;
+}
+
+.rightbox{
+    display: flex;
+    flex-direction: column;
+
+    width: 70%;
+    height: auto;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+}
+.rowBox  {
+    display: flex;
+    width: 90%;
+    height: 35px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+    align-items: center;
+    /* border:1px solid black; */
+}
+.four{
+    margin-left: 30px;
+    width: 100%;
+    position: relative;
+    /* border: 1px solid black; */
+}
+.three{
+    position: relative;
+    /* border: 1px solid black; */
+}
+.sy{
+    color: aqua;
+}
+#proinfo{
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: larger;
+    font-weight: bold;
+    filter: brightness(2);
+}
+.content{
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+}
+.note{
+    font-family: 'Source Sans Pro', sans-serif; 
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.arw{
+    color: black;
+}
+.rowBox2{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif; 
+    /* border: 1px solid black; */
+}
+.five{
+    margin-left: 30px;
+    width: 70%;
+    position: relative;
+    /* border: 1px solid black; */
+}
+.point{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 30px;
+    /* border: 1px solid black; */
+}
+.degree{
+    font-weight: bold;
+}
+#unlist{
+    line-height: 40px;
+}
+.Lpoint{
+    color: black;
+    margin-left: 110px;
+}
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    margin-left: 30px;
+    /* border: 1px solid black; */
+}
+.skillone{
+    display: flex;
+    width: 50%;
+    height: 200px;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+.toplevel{
+    font-family: 'Source Sans Pro', sans-serif; 
+    margin-left: 30px;
+}
+.html{
+    margin-left: 30px;
+    width: 80%;
+    height: auto;
+    position: relative;
+    background-color: rgb(199, 193, 193);
+}
+.uhtml{
+    width: 75%;
+    height: 10px;
+    background-color: green;
+    transform-origin: left;
+    animation: grow 4s forwards;
+}
+.uhtml1{
+    width: 70%;
+    height: 10px;
+    background-color: green;
+    transform-origin: left;
+    animation: grow 4s forwards;
+}
+.uhtml2{
+    width: 80%;
+    height: 10px;
+    background-color: green;
+    transform-origin: left;
+    animation: grow 4s forwards;
+}
+.uhtml3{
+    width: 85%;
+    height: 10px;
+    background-color: green;
+    transform-origin: left;
+    animation: grow 4s forwards;
+}
+.uhtml4{
+    width: 70%;
+    height: 10px;
+    background-color: green;
+    transform-origin: left;
+    animation: grow 4s forwards;
+}
+.uhtml5{
+    width: 70%;
+    height: 10px;
+    background-color: green;
+    transform-origin: left;
+    animation: grow 4s forwards;
+}
