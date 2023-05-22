@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" method="post" id="form">
+            <h1>Form Validation</h1>
+            <p>Please fill the form below to submit</p>
+            <div class="forom">
+                <div class="title">
+                    <!--  -->
+                    <i class="fa-solid fa-user icon"></i>
+                    <input type="text" name="name" id="name" required placeholder="Enter your First Name">
+                </div>
+                <p class="error" id="errortext"></p>
+
+                <div class="title">
+                    <!--  -->
+                    <i class="fa-solid fa-user icon"></i>
+                    <input type="text" name="namel" id="lname" required placeholder="Enter your Last Name">
+                </div>
+                <p class="error" id="errortextL"></p>
+
+                <div class="title">
+                    <!--  -->
+                    <i class="fa-solid fa-envelope  icon"></i>
+                    <input type="email" name="email" id="email" required placeholder="Enter your email">
+                </div>
+                <p class="error" id="errortextEmail"></p>
+
+                <div class="title">
+                    <!--  -->
+                    <i class="fa-solid fa-phone icon"></i>
+                    <input type="number" name="phone" id="phone" class="scroll" required placeholder="Enter your Mobile number">
+                </div>
+                <p class="error" id="errortextNumber"></p>
+
+                <div class="title">
+                    <!--  -->
+                    <i class="fa-solid fa-lock icon"></i>
+                    <input type="password" name="pass" id="pass" required placeholder="Enter your Password">
+                </div>
+                <p class="error" id="errortextPass"></p>
+
+                <div class="title">
+                    <!--  -->
+                    <i class="fa-solid fa-lock icon"></i>
+                    <input type="password" name="passw" id="passw" required placeholder="Confirm Password">
+                </div>
+                <p class="error" id="errortextCPass"></p>
+
+                <button id="btn" onclick="submitBtn()">Submit</button>
+            </div>
+            
+            
+        </form>
+    </div>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>

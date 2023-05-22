@@ -1,7 +1,7 @@
 let boxes = document.getElementsByClassName("box");
 let currentPlayer = "X";
-let gameReset = document.getElementById('reset');
-let clr = "";
+// let gameReset = document.getElementById('reset');
+// let clr = "";
 let winner = false;
 
 const winningCondition = [
@@ -52,7 +52,7 @@ function playerChange  () {
 }
 
 function clearScreen() {
-    clr = "";
+    let clr = "";
     boxes.value = clr;
 }
 
