@@ -1,0 +1,79 @@
+/* body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+} */
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 100vh;
+    margin: auto;
+    background: #45484d; /* Old browsers */
+    background: -moz-linear-gradient(top,  #45484d 8%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #45484d 8%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #45484d 8%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+    /* background-color: rgb(0, 0, 0); */
+    /* border: 1px solid red; */
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    width: 40%;
+    height: 80%;
+    border: 1px solid red;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+
+    border: 1px solid red;
+}
+#textVal{
+    height: 30px;
+    padding: 5px;
+    outline: none;
+    border-radius: 30px;
+}
+.time span{
+    color: white;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 50%;
+    margin:  10px auto;
+    border: 1px solid red;
+}
+.iBox{
+    width: 80%;
+    height: 80%;
+    border: 1px solid red;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 40%;
+    border: 1px solid red;
+}
