@@ -1,0 +1,12 @@
+
+.head1{
+    height: 40px;
+    width: 40%;
+    border: 1px solid red;
+}
+
+.head2{
+    height: 40px;
+    width: 60%;
+    border: 1px solid black;
+}

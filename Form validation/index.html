@@ -10,55 +10,88 @@
 </head>
 <body>
     <div class="container">
-        <form action="" method="post" id="form">
-            <h1>Form Validation</h1>
-            <p>Please fill the form below to submit</p>
+        <form action="#" method="post" id="form">
+            <h1>Form Validation</h1> <br>
+            <p>Please fill the form below to submit</p> <br>
             <div class="forom">
                 <div class="title">
                     <!--  -->
-                    <i class="fa-solid fa-user icon"></i>
-                    <input type="text" name="name" id="name" required placeholder="Enter your First Name">
+                    <div class="wraper">
+                        <i class="fa-solid fa-user icon"></i>
+                        <input type="text" name="name" id="name" required placeholder="Enter your First Name">
+                        <i class="fa-solid fa-check display" class="check"></i>
+                        <i class="fa-solid fa-xmark display" class="cross"></i>
+                    </div>
+                    <p class="error" id="errortext"></p>
                 </div>
-                <p class="error" id="errortext"></p>
+                
 
                 <div class="title">
                     <!--  -->
-                    <i class="fa-solid fa-user icon"></i>
-                    <input type="text" name="namel" id="lname" required placeholder="Enter your Last Name">
+                    <div class="wraper">
+                        <i class="fa-solid fa-user icon"></i>
+                        <input type="text" name="namel" id="lname" required placeholder="Enter your Last Name">
+                        <i class="fa-solid fa-check display" class="check"></i>
+                        <i class="fa-solid fa-xmark display" class="cross"></i>
+                    </div>
+                    <p class="error" id="errortextL"></p>
                 </div>
-                <p class="error" id="errortextL"></p>
+                
 
                 <div class="title">
                     <!--  -->
-                    <i class="fa-solid fa-envelope  icon"></i>
-                    <input type="email" name="email" id="email" required placeholder="Enter your email">
+                    <div class="wraper">
+                        <i class="fa-solid fa-envelope  icon"></i>
+                        <input type="email" name="email" id="email" required placeholder="Enter your email">
+                        <i class="fa-solid fa-check display" class="check"></i>
+                        <i class="fa-solid fa-xmark display" class="cross"></i>
+                    </div>
+                    <p class="error" id="errortextEmail"></p>
                 </div>
-                <p class="error" id="errortextEmail"></p>
+                
 
                 <div class="title">
                     <!--  -->
-                    <i class="fa-solid fa-phone icon"></i>
-                    <input type="number" name="phone" id="phone" class="scroll" required placeholder="Enter your Mobile number">
+                    <div class="wraper">
+                        <i class="fa-solid fa-phone icon"></i>
+                        <input type="number" name="phone" id="phone" class="scroll" required placeholder="Enter your Mobile number">
+                        <i class="fa-solid fa-check display" class="check"></i>
+                        <i class="fa-solid fa-xmark display" class="cross"></i>
+                    </div>
+                    <p class="error" id="errortextNumber"></p>
                 </div>
-                <p class="error" id="errortextNumber"></p>
+                
 
                 <div class="title">
                     <!--  -->
-                    <i class="fa-solid fa-lock icon"></i>
-                    <input type="password" name="pass" id="pass" required placeholder="Enter your Password">
+                    <div class="wraper">
+                        <i class="fa-solid fa-lock icon"></i>
+                        <input type="password" name="pass" id="pass" required placeholder="Enter your Password">  
+                        <i class="fa-solid fa-check display" class="check"></i>
+                        <i class="fa-solid fa-xmark display" class="cross"></i>
+                    </div>
+                    <p class="error" id="errortextPass"></p>
                 </div>
-                <p class="error" id="errortextPass"></p>
+                
 
                 <div class="title">
                     <!--  -->
-                    <i class="fa-solid fa-lock icon"></i>
-                    <input type="password" name="passw" id="passw" required placeholder="Confirm Password">
+                    <div class="wraper">
+                        <i class="fa-solid fa-lock icon"></i>
+                        <input type="password" name="passw" id="passw" required placeholder="Confirm Password">
+                        <i class="fa-solid fa-check display" class="check"></i>
+                        <i class="fa-solid fa-xmark display" class="cross"></i>
+                    </div>
+                    <p class="error" id="errortextCPass"></p>
                 </div>
-                <p class="error" id="errortextCPass"></p>
+                
 
-                <button id="btn" onclick="submitBtn()">Submit</button>
+                
             </div>
-            
+            <div class="buttons">
+                <button id="btn" onclick="submitBtn()">Submit</button>
+                <!-- <button id="btn" onclick="">Reset</button> -->
+            </div>
             
         </form>
     </div>
